@@ -87,9 +87,9 @@ const ytThumbnailsRow2 = [
 
 const ytThumbnailsRow3 = [
   { img: "https://res.cloudinary.com/pvw0f7rs/image/upload/v1788078130/Copy_of_Untitled1271_1.jpg", title: "Extra Thumb 5" },
-  { img: "https://res.cloudinary.com/pvw0f7rs/image/upload/v1788078130/Copy_of_Untitled1445_1.jpg", title: "Extra Thumb 6" },
+  { img: "https://res.cloudinary.com/pvw0f7rs/image/upload/v1788078128/Untitled1593.jpg.jpg", title: "Extra Thumb 6" },
   { img: "https://res.cloudinary.com/pvw0f7rs/image/upload/v1787486945/Untitled1518_2.jpg.jpg", title: "Extra Thumb 7" },
-  { img: "https://res.cloudinary.com/pvw0f7rs/image/upload/v1788078128/Untitled1593.jpg.jpg", title: "Extra Thumb 8" }
+  { img: "https://res.cloudinary.com/pvw0f7rs/image/upload/v1788078130/Untitled1372_1.jpg", title: "Extra Thumb 8" }
 ];
 
 const portraitReels = [
@@ -100,9 +100,9 @@ const portraitReels = [
 ];
 
 const reviewVideos = [
-  { id: 1, name: "Sarah Jenkins", role: "YouTuber (1.2M Subs)", videoUrl: "https://res.cloudinary.com/pvw0f7rs/video/upload/v1788076640/IMG_5930.mov" },
-  { id: 2, name: "Marcus Doe", role: "Fitness Coach", videoUrl: "https://res.cloudinary.com/pvw0f7rs/video/upload/v1788076292/Img_5178.mp4" },
-  { id: 3, name: "Emily Chen", role: "Tech Reviewer", videoUrl: "https://res.cloudinary.com/pvw0f7rs/video/upload/v1788077821/IMG_5941.mp4" }
+  { id: 1, name: "Rittik baheti", role: "Education Creator", videoUrl: "https://res.cloudinary.com/pvw0f7rs/video/upload/v1788076640/IMG_5930.mov" },
+  { id: 2, name: "Arpit Sharma", role: "Finance Creator", videoUrl: "https://res.cloudinary.com/pvw0f7rs/video/upload/v1788076292/Img_5178.mp4" },
+  { id: 3, name: "Dr. Parth Goyal", role: "Education & Podcaster", videoUrl: "https://res.cloudinary.com/pvw0f7rs/video/upload/v1788077821/IMG_5941.mp4" }
 ];
 
 // Exactly 7 Creator Partners with precise photos, names, feedback & links

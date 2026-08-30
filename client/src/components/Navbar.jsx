@@ -44,11 +44,6 @@ const Navbar = () => {
       action: () => handleScrollToSection("works") 
     },
     { 
-      name: "Results", 
-      icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>,
-      action: () => { setIsOpen(false); navigate("/results"); } 
-    },
-    { 
       name: "Testimonials", 
       icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" /></svg>,
       action: () => handleScrollToSection("testimonials") 
@@ -79,7 +74,6 @@ const Navbar = () => {
           to="/"
           className="w-12 h-12 rounded-2xl overflow-hidden flex items-center justify-center bg-[#111111]/90 backdrop-blur-xl border border-white/15 hover:scale-105 transition-transform shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
         >
-          {/* Yahan apni original logo image ka path ya URL paste kar dena */}
           <img 
             src="https://res.cloudinary.com/doa6d6cyf/image/upload/v1787468298/WhatsApp_Image_2026-08-22_at_7.38.32_PM-removebg-preview_hhssd7.png" 
             alt="Logo" 
@@ -100,7 +94,7 @@ const Navbar = () => {
       </div>
 
       {/* ========================================================= */}
-      {/* SIDEBAR DRAWER (Optimized & Compact Width for Professional Look) */}
+      {/* SIDEBAR DRAWER */}
       {/* ========================================================= */}
       <div 
         className={`fixed top-0 left-0 bottom-0 z-50 w-72 bg-[#0A0A0A]/95 backdrop-blur-2xl border-r border-white/10 p-6 flex flex-col justify-between shadow-[20px_0_50px_rgba(0,0,0,0.8)] transition-transform duration-500 ease-in-out ${

@@ -48,7 +48,7 @@ export default function Footer() {
             {/* Quick Contact Line */}
             <div className="flex items-center gap-3 mt-1">
               <span className="text-[11px] uppercase tracking-widest text-blue-100 font-extrabold">Inquiries:</span>
-              <a href="tel:+919463631484" className="text-xs font-bold text-white hover:underline">+91 94636 31484</a>
+              <a href="tel:+917665627495" className="text-xs font-bold text-white hover:underline">+91 7665627495</a>
             </div>
 
             {/* Social Icons */}
