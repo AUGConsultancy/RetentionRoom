@@ -27,11 +27,11 @@ export default function Footer() {
 
   return (
     <>
-      {/* Compact & Clean Footer with Blue, White & Cream Theme */}
-      <footer className="bg-[#1E3A8A] text-white pt-10 pb-6 border-t border-blue-900/25 relative overflow-hidden transition-colors duration-500">
+      {/* Footer styled with Logo-Matched Vibrant Royal Blue Theme */}
+      <footer className="bg-[#0052FF] text-white pt-10 pb-6 border-t border-blue-400/20 relative overflow-hidden transition-colors duration-500">
         
         {/* Subtle background ambient glow */}
-        <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-blue-500 opacity-10 blur-[100px] pointer-events-none"></div>
+        <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-white opacity-10 blur-[100px] pointer-events-none"></div>
 
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-12 gap-8 mb-8 relative z-10 items-start">
@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Brand Column (Span 4) */}
           <div className="md:col-span-4 flex flex-col gap-3 text-center md:text-left items-center md:items-start">
             <a href="#" className="font-black text-xl tracking-tighter text-white">
-              RETENTION<span className="text-blue-300">ROOM</span>
+              RETENTION<span className="text-blue-200">ROOM</span>
             </a>
             <p className="text-blue-100 text-xs leading-relaxed max-w-xs font-semibold">
               Engineering high-retention video content, cinematic edits, and algorithm-driven scaling for modern brands.
@@ -47,7 +47,7 @@ export default function Footer() {
             
             {/* Quick Contact Line */}
             <div className="flex items-center gap-3 mt-1">
-              <span className="text-[11px] uppercase tracking-widest text-blue-200 font-extrabold">Inquiries:</span>
+              <span className="text-[11px] uppercase tracking-widest text-blue-100 font-extrabold">Inquiries:</span>
               <a href="tel:+919463631484" className="text-xs font-bold text-white hover:underline">+91 94636 31484</a>
             </div>
 
@@ -69,7 +69,7 @@ export default function Footer() {
 
               <a 
                 href="mailto:retentionroom0@gmail.com" 
-                className="w-9 h-9 rounded-xl bg-white/10 border border-white/25 flex items-center justify-center text-white hover:bg-blue-600 hover:border-blue-400 transition-all"
+                className="w-9 h-9 rounded-xl bg-white/10 border border-white/25 flex items-center justify-center text-white hover:bg-blue-700 hover:border-white transition-all"
                 aria-label="Email Us"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
@@ -79,7 +79,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Navigation Links (Span 3) - Fixed heading level order */}
+          {/* Navigation Links (Span 3) */}
           <nav className="md:col-span-3 text-center md:text-left" aria-label="Footer Navigation">
             <h2 className="text-white font-extrabold mb-3 uppercase tracking-widest text-[11px]">Navigation</h2>
             <ul className="flex flex-wrap md:flex-col justify-center gap-x-6 gap-y-2">
@@ -93,7 +93,7 @@ export default function Footer() {
           </nav>
 
           {/* Compact Newsletter / Consultation Box (Span 5) */}
-          <div className="md:col-span-5 flex flex-col justify-between bg-[#152865] p-5 sm:p-6 rounded-2xl border border-white/20 relative overflow-hidden shadow-lg">
+          <div className="md:col-span-5 flex flex-col justify-between bg-[#0040CC] p-5 sm:p-6 rounded-2xl border border-white/20 relative overflow-hidden shadow-lg">
             <div>
               <h2 className="text-white font-extrabold mb-1 text-sm">Strategy Session</h2>
               <p className="text-blue-100 text-[11px] font-medium mb-3">Drop your email for a direct callback or book instantly.</p>
@@ -112,12 +112,12 @@ export default function Footer() {
                   onChange={(e) => setUserEmail(e.target.value)}
                   placeholder="Enter email address..." 
                   aria-label="Email address for strategy session"
-                  className="bg-[#0F172A] border border-white/30 px-3 py-2.5 rounded-xl text-white text-xs font-medium focus:border-white focus:outline-none flex-1 placeholder:text-blue-200/60"
+                  className="bg-[#002DB3] border border-white/30 px-3 py-2.5 rounded-xl text-white text-xs font-medium focus:border-white focus:outline-none flex-1 placeholder:text-blue-200/60"
                 />
                 <button 
                   type="submit" 
                   aria-label="Submit email address"
-                  className="bg-white text-[#1E3A8A] px-5 py-2.5 rounded-xl font-extrabold uppercase tracking-widest text-[11px] hover:bg-blue-50 transition-all flex items-center justify-center gap-1.5 shadow-md cursor-pointer shrink-0"
+                  className="bg-white text-[#0052FF] px-5 py-2.5 rounded-xl font-extrabold uppercase tracking-widest text-[11px] hover:bg-blue-50 transition-all flex items-center justify-center gap-1.5 shadow-md cursor-pointer shrink-0"
                 >
                   Send
                 </button>
@@ -126,7 +126,7 @@ export default function Footer() {
 
             <Link
               to="/BookingForm"
-              className="block w-full text-center bg-blue-700 hover:bg-blue-800 text-white py-2.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-colors shadow"
+              className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-2.5 rounded-xl font-black uppercase tracking-widest text-[10px] transition-colors shadow"
             >
               Book Free Consultation Now →
             </Link>
@@ -135,7 +135,7 @@ export default function Footer() {
         </div>
         
         {/* Bottom Bar: Copyright & Agency Card Trigger */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-4 border-t border-blue-900/30 flex flex-col md:flex-row items-center justify-between gap-3 relative z-10 text-center md:text-left">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-4 border-t border-blue-400/20 flex flex-col md:flex-row items-center justify-between gap-3 relative z-10 text-center md:text-left">
           
           <p className="text-[11px] text-blue-100 font-semibold order-2 md:order-1">
             © {new Date().getFullYear()} Retention Room. All rights reserved.
@@ -146,7 +146,7 @@ export default function Footer() {
               Designed & Developed by 
               <button 
                 onClick={() => setIsAgencyCardOpen(true)}
-                className="font-bold text-white hover:text-blue-300 transition-colors underline decoration-white/40 underline-offset-2 focus:outline-none cursor-pointer"
+                className="font-bold text-white hover:text-blue-200 transition-colors underline decoration-white/40 underline-offset-2 focus:outline-none cursor-pointer"
               >
                 Aug Consultancy
               </button>
@@ -179,11 +179,11 @@ export default function Footer() {
               className="relative w-full max-w-[380px] bg-[#FFFFFF] text-[#0F172A] rounded-[2rem] shadow-2xl border border-blue-900/10 overflow-hidden z-10"
             >
               {/* Card Header */}
-              <div className="bg-[#1E3A8A] text-white px-6 pt-6 pb-5 relative overflow-hidden">
+              <div className="bg-[#0052FF] text-white px-6 pt-6 pb-5 relative overflow-hidden">
                 <div className="relative z-10 flex justify-between items-start">
                   <div>
-                    <h3 className="text-xl font-black text-white tracking-tight">AUG<span className="text-blue-300">.</span></h3>
-                    <p className="text-blue-200 text-[10px] uppercase tracking-widest font-bold mt-1">Digital Growth Partners</p>
+                    <h3 className="text-xl font-black text-white tracking-tight">AUG<span className="text-blue-200">.</span></h3>
+                    <p className="text-blue-100 text-[10px] uppercase tracking-widest font-bold mt-1">Digital Growth Partners</p>
                   </div>
                   <button 
                     onClick={() => setIsAgencyCardOpen(false)}
@@ -199,7 +199,7 @@ export default function Footer() {
               
               {/* Card Body */}
               <div className="p-6 bg-[#FDFBF7]">
-                <p className="text-[#334155] text-xs font-semibold leading-relaxed mb-5 border-l-2 border-[#1E3A8A] pl-3">
+                <p className="text-[#334155] text-xs font-semibold leading-relaxed mb-5 border-l-2 border-[#0052FF] pl-3">
                   We architect digital excellence. From high-converting websites to robust scalable systems, we build digital infrastructure that drives real growth for modern brands.
                 </p>
                 
@@ -209,7 +209,7 @@ export default function Footer() {
                     href="https://afterusglobal.com" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="group flex items-center justify-between w-full px-4 py-3 bg-[#1E3A8A] hover:bg-blue-700 text-white rounded-xl font-bold text-xs transition-all shadow"
+                    className="group flex items-center justify-between w-full px-4 py-3 bg-[#0052FF] hover:bg-blue-700 text-white rounded-xl font-bold text-xs transition-all shadow"
                   >
                     <span className="flex items-center gap-2.5">
                       <svg className="w-4 h-4 text-blue-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -225,7 +225,7 @@ export default function Footer() {
                       href="tel:+918002468432" 
                       className="flex items-center justify-center gap-1.5 w-full py-3 bg-white hover:bg-gray-100 text-[#0F172A] border border-blue-900/15 rounded-xl font-bold text-xs transition-all shadow-sm"
                     >
-                      <svg className="w-3.5 h-3.5 text-[#1E3A8A]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg className="w-3.5 h-3.5 text-[#0052FF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                       </svg>
                       Call Us
